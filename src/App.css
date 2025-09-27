@@ -1,0 +1,294 @@
+body{
+    background-color: hsla(0, 0%, 0%, 0.897);
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale:0.2;
+        
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        
+        
+    }
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 0;
+    color: aliceblue;
+    height: auto;
+    width: auto;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    
+    
+}
+.Header h1{
+    margin-top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Header ul{
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    
+}
+.Header li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    text-decoration: none;
+}
+.Header ul :hover{
+    color: rgb(228, 177, 112);
+}
+.footer{
+    color: aliceblue;
+    position: absolute;
+    left: 200px;
+    bottom: -400vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.right{
+    position: absolute;
+    top: 170px;
+    left: 540px;
+    color: aliceblue;
+    font-family:monospace;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.right img{
+    height:100px;
+    width: 100px;
+    
+    
+}
+.sidebar1{
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    color: aliceblue;
+    font-family:monospace;
+    width: 400px;
+    animation: color 11s ease infinite, appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+@keyframes color {
+    0%{
+        color: aliceblue;
+    }
+    24%{
+        color: rgb(226, 205, 178);
+        
+    }
+    24.9%{
+        color: rgb(226, 205, 178);
+        
+    }
+    49.9%{
+        color: rgb(202, 223, 154);
+        
+    }
+    50%{
+        color: rgb(202, 226, 162);
+        
+    }
+    74%{
+        color: rgb(142, 195, 216);
+        
+    }
+    74.9%{
+        color: rgb(142, 205, 221);
+        
+    }
+    100%{
+        color: rgb(240, 140, 195);
+        
+    }
+    
+}
+.Sidebar{
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    color: aliceblue;
+    font-family:monospace;
+    width: 340px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 1px solid white; /* The typewriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+    typing 5s steps(40) infinite,
+    blink-caret 10s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 ;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to { 
+         color: rgb(228, 177, 112);
+         width: 340px;
+         font-family: monospace;
+     }
+   }
+   
+   /* The typewriter cursor effect */
+   @keyframes blink-caret {
+     from, to { border-color: transparent }
+     50% { border-color: white; }
+   }
+.Aboutt{
+   font-size: .70rem;  
+}
+.About{
+    position: absolute;
+    top: 500px;
+    left: 40px;
+    color: aliceblue;
+    height: 100px;
+    width: 170px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.About1{
+    position: absolute;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    top: 500px;
+    left: 260px;
+    color: aliceblue;
+    height: 100px;
+    width: 170px;
+    
+}
+.About2{
+    position: absolute;
+    top: 500px;
+    left: 470px;
+    color: aliceblue;
+    height: 100px;
+    width: 170px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    
+}
+.About3{
+    position: absolute;
+    top: 700px;
+    left: 40px;
+    color: aliceblue;
+    height: 100px;
+    width: 170px;   
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.About4{
+    position: absolute;
+    top: 700px;
+    left: 260px;
+    color: aliceblue;
+    height: 100px;
+    width: 170px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.About5{
+    position: absolute;
+    top: 700px;
+    left: 470px;
+    color: aliceblue;
+    height: 100px;
+    width: 170px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.About:hover{
+    transform: scale(1.2,1.2);
+}
+.About1:hover{
+    transform: scale(1.2,1.2);
+}
+.About2:hover{
+    transform: scale(1.2,1.2);
+}
+.About3:hover{
+    transform: scale(1.2,1.2);
+}
+.About4:hover{
+    transform: scale(1.2,1.2);
+}
+.About5:hover{
+    transform: scale(1.2,1.2);
+}
+.Contact{
+    color: aliceblue;
+    position: absolute;
+    top: 1000px;
+    left: 140px;    
+    background-color: rgba(29, 7, 7, 0.082);
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.Contact:hover{
+    background-color: rgba(0, 0, 0, 0.322);
+    color: rgb(211, 186, 154);
+
+}
+.Contact-form {
+    height: 110px;
+    width: 340px;
+    border: 2px solid rgba(173, 207, 80, 0.781);
+    border-radius: 30px;
+    padding: 20px 40px 89px 29px;
+}
+.Contact-form input{
+    margin-bottom: 4px;
+    border-radius: 30px;
+    width: 200px;
+    height: 14px;
+    padding: 2px 0px 0px 10px;
+}
+.Contact-form textarea{
+    border-radius: 20px;
+    padding: 4px 0px 0px 10px;
+    text-transform: capitalize;
+}
+.Contact-form button{
+    border: 2px solid saddlebrown;
+    border-radius: 30px;
+    padding: 4px 30px 4px 30px;
+    margin: 20px 0 0 100px;
+}

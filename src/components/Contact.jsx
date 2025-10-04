@@ -14,7 +14,7 @@ function Contact(){
             <input type="email" placeholder="Enter Your Email" /><br />
 
             <label>Message : </label><br />
-            <textarea rows="2" cols= '30' placeholder="Hi,I Like to drop this message"></textarea><br />
+            <textarea rows="2" cols= '34' placeholder="Hi,I Like to drop this message"></textarea><br />
 
             <button onClick={btn}>Send Me</button><br />        
         </form>
